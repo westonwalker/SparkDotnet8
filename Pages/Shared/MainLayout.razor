@@ -1,0 +1,10 @@
+﻿@inherits LayoutComponentBase
+
+<PageTitle>@AppName</PageTitle>
+
+<CascadingValue Value="this">
+    <NavMenu />
+    <main class="container px-6 max-w-6xl mx-auto py-12">
+        @Body
+    </main>
+</CascadingValue>
